@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Projects — Banele Monamudi</title>
+<meta name="description" content="Enterprise networking, cybersecurity, and IT support projects with technologies, challenges, and measurable outcomes." />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:ital,wght@0,400;0,500;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="loader"><div class="loader-ring"></div></div>
+<header class="nav"><div class="nav-inner">
+  <a href="index.html" class="brand"><span class="brand-mark">BIM</span> Banele Monamudi</a>
+  <nav class="nav-links">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a>
+    <a href="skills.html">Skills</a><a href="certifications.html">Certifications</a>
+    <a href="resume.html">Resume</a><a href="contact.html">Contact</a>
+  </nav>
+  <div class="nav-tools">
+    
+    <button class="icon-btn burger"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</div></header>
+
+<main>
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Selected work</span>
+      <h2>Enterprise projects</h2>
+      <p>A curated set of networking, cybersecurity, and IT support engagements — each with the problem, the solution, and the measurable result.</p>
+    </div>
+
+    <div class="search-box reveal">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input id="projSearch" type="search" placeholder="Search projects, tools, technologies…" />
+    </div>
+
+    <div class="filter-bar reveal">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="network">Networking</button>
+      <button data-filter="security">Cybersecurity</button>
+      <button data-filter="support">IT Support</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Networking -->
+      <article class="card project reveal" data-cat="network">
+        <div class="project-banner"><span class="tag">Networking</span><i class="fa-solid fa-network-wired"></i></div>
+        <div class="project-body">
+          <h3>Multi-Branch Enterprise Network Design</h3>
+          <p>Designed and deployed a office network LAN connecting 6 computers, a router, a switch and printer.</p>
+          <div class="tech-tags"><span>Cisco</span><span>Meraki</span><span>BGP</span><span>SD-WAN</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Case study</a><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="network">
+        <div class="project-banner"><span class="tag">Networking</span><i class="fa-solid fa-sitemap"></i></div>
+        <div class="project-body">
+          <h3>VLAN Segmentation & Secure Switching</h3>
+          <p>Create 3 separate VLANs on a switch
+Assign different departments/users to each VLAN
+Prevent unauthorized access between VLANs
+Enable controlled inter-VLAN communication.</p>
+          <div class="tech-tags"><span>Cisco IOS</span><span>802.1X</span><span>ISE</span><span>ACL</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Repo</a><a href="#"><i class="fa-solid fa-file-lines"></i> Brief</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="network">
+        <div class="project-banner"><span class="tag">Networking</span><i class="fa-solid fa-diagram-project"></i></div>
+        <div class="project-body">
+          <h3>Cisco Packet Tracer Simulation Lab</h3>
+          <p>Reusable lab modeling a small ISP with OSPF, EIGRP, VLAN trunking, DHCP, and inter-VLAN routing for training and certification prep.</p>
+          <div class="tech-tags"><span>Packet Tracer</span><span>OSPF</span><span>EIGRP</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Files</a><a href="#"><i class="fa-solid fa-play"></i> Walkthrough</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="network">
+        <div class="project-banner"><span class="tag">Networking</span><i class="fa-solid fa-wifi"></i></div>
+        <div class="project-body">
+          <h3>Cisco Wireless Configuration</h3>
+          <p>Configured Cisco Wireless LAN Controller (WLC) with multiple SSIDs mapped to dedicated VLANs for warehouse handheld devices and guest access. Implemented WPA2/WPA3 Enterprise security with 802.1X authentication and MAC-based access controls to ensure secure device onboarding..</p>
+          <div class="tech-tags"><span>Cisco</span><span>Aruba</span><span>Wi-Fi 6</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Report</a><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Heatmap</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="network">
+        <div class="project-banner"><span class="tag">Networking</span><i class="fa-solid fa-chart-line"></i></div>
+        <div class="project-body">
+          <h3>Network Monitoring Dashboard with PRTG</h3>
+          <p>Custom PRTG sensors, maps, and notification channels covering 4 home devices. .</p>
+          <div class="tech-tags"><span>PRTG</span><span>SNMP</span><span>NetFlow</span><span>PagerDuty</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Sensors</a><a href="#"><i class="fa-solid fa-image"></i> Dashboard</a></div>
+        </div>
+      </article>
+
+      <!-- Cybersecurity -->
+      <article class="card project reveal" data-cat="security">
+        <div class="project-banner"><span class="tag">Cybersecurity</span><i class="fa-solid fa-shield-virus"></i></div>
+        <div class="project-body">
+          <h3>Home SOC Lab with Splunk</h3>
+          <p>Full SIEM lab ingesting Sysmon, pfSense, and Zeek logs. Built detections for credential stuffing, lateral movement, and persistence.</p>
+          <div class="tech-tags"><span>Splunk</span><span>Sysmon</span><span>Zeek</span><span>MITRE ATT&CK</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Detections</a><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Lab</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="security">
+        <div class="project-banner"><span class="tag">Cybersecurity</span><i class="fa-solid fa-bug"></i></div>
+        <div class="project-body">
+          <h3>Vulnerability Assessment with NMap</h3>
+          <p>Home authenticated scans across 8 endpoints; risk-scored reporting + Vulnerability check . CVSS critical down 78%.</p>
+          <div class="tech-tags"><span>NMap</span><span>Tenable.io</span><span>ServiceNow</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Playbook</a><a href="#"><i class="fa-solid fa-file-pdf"></i> Sample</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="security">
+        <div class="project-banner"><span class="tag">Cybersecurity</span><i class="fa-solid fa-fish"></i></div>
+        <div class="project-body">
+          <h3>Phishing Detection & Awareness Program</h3>
+          <p>Home simulated campaigns + microlearning. Click-through dropped from 24% to 3.1% in week across 8 family members.</p>
+          <div class="tech-tags"><span>KnowBe4</span><span>M365</span><span>Defender</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Templates</a><a href="#"><i class="fa-solid fa-chart-pie"></i> Metrics</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="security">
+        <div class="project-banner"><span class="tag">Cybersecurity</span><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+        <div class="project-body">
+          <h3>Upcoming project</h3>
+          <p>-------</p>
+          <div class="tech-tags"><span>---</span><span>---</span><span>---</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> SPL</a><a href="#"><i class="fa-solid fa-image"></i> Screens</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="security">
+        <div class="project-banner"><span class="tag">Cybersecurity</span><i class="fa-solid fa-fire"></i></div>
+        <div class="project-body">
+          <h3>Firewall Hardening Project</h3>
+          <p>Audited  perimeter firewalls, removed shadowed rules, enforced least privilege, and added geo-blocking + IDS.</p>
+          <div class="tech-tags"><span>FortiGate</span><span>pfSense</span><span>Suricata</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Findings</a><a href="#"><i class="fa-solid fa-file-shield"></i> Report</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="security">
+        <div class="project-banner"><span class="tag">Cybersecurity</span><i class="fa-solid fa-id-card-clip"></i></div>
+        <div class="project-body">
+          <h3>Active Directory Security Audit</h3>
+          <p>Home network projects + academic security audit.</p>
+          <div class="tech-tags"><span>BloodHound</span><span>PingCastle</span><span>AD</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Scripts</a><a href="#"><i class="fa-solid fa-file-lines"></i> Report</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="security">
+        <div class="project-banner"><span class="tag">Cybersecurity</span><i class="fa-solid fa-bell"></i></div>
+        <div class="project-body">
+          <h3>Incident Response Simulation Lab</h3>
+          <p>Tabletop + technical exercises modeling ransomware and BEC.</p>
+          <div class="tech-tags"><span>NIST 800-61</span><span>Runbooks</span><span>Tabletop</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Runbooks</a><a href="#"><i class="fa-solid fa-file-lines"></i> Notes</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="security">
+        <div class="project-banner"><span class="tag">Cybersecurity</span><i class="fa-brands fa-linux"></i></div>
+        <div class="project-body">
+          <h3>Kali Linux Penetration Testing Lab</h3>
+          <p>Self-hosted lab with vulnerable VMs (Metasploitable, DVWA, HTB boxes). Documented exploitation paths and defensive lessons.</p>
+          <div class="tech-tags"><span>Kali</span><span>Metasploit</span><span>Burp Suite</span><span>Nmap</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Writeups</a><a href="#"><i class="fa-solid fa-flag"></i> CTF</a></div>
+        </div>
+      </article>
+
+      <!-- IT Support -->
+      <article class="card project reveal" data-cat="support">
+        <div class="project-banner"><span class="tag">IT Support</span><i class="fa-solid fa-ticket"></i></div>
+        <div class="project-body">
+          <h3>Helpdesk Ticketing System Implementation</h3>
+          <p>Migrated from email-driven support to Jira Service Management with SLAs, knowledge base, and self-service portal.</p>
+          <div class="tech-tags"><span>Jira SM</span><span>Confluence</span><span>ITIL</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Config</a><a href="#"><i class="fa-solid fa-file-lines"></i> Brief</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="support">
+        <div class="project-banner"><span class="tag">IT Support</span><i class="fa-brands fa-microsoft"></i></div>
+        <div class="project-body">
+          <h3>Office 365 Tenant Migration</h3>
+          <p>Migrated mailboxes + OneDrive from on-prem Exchange to M365 with zero data loss and minimal user disruption.</p>
+          <div class="tech-tags"><span>M365</span><span>Exchange</span><span>PowerShell</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Scripts</a><a href="#"><i class="fa-solid fa-file-lines"></i> Plan</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="support">
+        <div class="project-banner"><span class="tag">IT Support</span><i class="fa-brands fa-windows"></i></div>
+        <div class="project-body">
+          <h3>Windows 11 Enterprise Deployment</h3>
+          <p>Built golden image, Autopilot enrollment, and GPO baselines; deployed to endpoints across sites.</p>
+          <div class="tech-tags"><span>Windows 11</span><span>Autopilot</span><span>GPO</span><span>MDT</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Templates</a><a href="#"><i class="fa-solid fa-file-lines"></i> Notes</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="support">
+        <div class="project-banner"><span class="tag">IT Support</span><i class="fa-solid fa-display"></i></div>
+        <div class="project-body">
+          <h3>Remote Desktop Support Environment</h3>
+          <p>Standardized on ScreenConnect + Azure Virtual Desktop with conditional access; remote-first support.</p>
+          <div class="tech-tags"><span>AVD</span><span>ScreenConnect</span><span>Conditional Access</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Setup</a><a href="#"><i class="fa-solid fa-file-lines"></i> Guide</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="support">
+        <div class="project-banner"><span class="tag">IT Support</span><i class="fa-solid fa-boxes-stacked"></i></div>
+        <div class="project-body">
+          <h3>Asset Management System</h3>
+          <p>Snipe-IT deployment with automated import from Intune & AD; full lifecycle (procure → assign → retire) tracking.</p>
+          <div class="tech-tags"><span>Snipe-IT</span><span>Intune</span><span>PowerShell</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Importers</a><a href="#"><i class="fa-solid fa-file-lines"></i> Schema</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="support">
+       
+      </article>
+
+      <article class="card project reveal" data-cat="support">
+        <div class="project-banner"><span class="tag">IT Support</span><i class="fa-solid fa-print"></i></div>
+        <div class="project-body">
+          <h3>Print & Endpoint Management</h3>
+          <p>Replaced legacy print server with PaperCut + universal driver; cut print-related tickets.</p>
+          <div class="tech-tags"><span>PaperCut</span><span>Universal Print</span></div>
+          <div class="project-actions"><a href="#"><i class="fa-brands fa-github"></i> Config</a><a href="#"><i class="fa-solid fa-file-lines"></i> Brief</a></div>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-cat="support">
+      
+      </article>
+
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div><a href="index.html" class="brand"><span class="brand-mark">BIM</span> Banele Monamudi</a>
+        <p style="margin-top:1rem;max-width:380px">IT Support & Cybersecurity Specialist focused on enterprise reliability.</p>
+        <div class="socials"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a><a href="#"><i class="fa-brands fa-github"></i></a><a href="#"><i class="fa-brands fa-x-twitter"></i></a><a href="mailto:alex@example.com"><i class="fa-regular fa-envelope"></i></a></div>
+      </div>
+      <div><h4>Navigate</h4><ul><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="skills.html">Skills</a></li><li><a href="certifications.html">Certifications</a></li></ul></div>
+      <div><h4>Contact</h4><ul><li><a href="mailto:alex@example.com">monamudi.banele@gmail.com</a></li><li><a href="tel:+15555550199">0635545406</a></li><li>Brakpan, Gauteng · Remote</li></ul></div>
+    </div>
+    <div class="copyright">© <span id="yr"></span> Banele Monamudi</div>
+  </div>
+</footer>
+<button id="toTop"><i class="fa-solid fa-arrow-up"></i></button>
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body></html>
